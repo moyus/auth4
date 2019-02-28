@@ -1,5 +1,9 @@
 # Auth4
-四要素信息生成及校验工具
+
+<div align="center">
+  <p>四要素信息生成及校验工具</p>
+  <img width="810" height="524" src="https://github.com/moyus/auth4/raw/master/screenshot.gif?sanitize=true" alt="auth4" />
+</div>
 
 ## 安装
 ```bash
