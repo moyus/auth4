@@ -110,7 +110,8 @@ function getAgeFromIdNo(idNo) {
  * @return {Object}
  */
 function getRegionFromIdNo(idNo) {
-  return CONSTANTS.REGION_LIST.find(region => region.code.substr(0, 2) === idNo.substr(0, 2))
+  const code = idNo.substr(0, 2)
+  return CONSTANTS.REGION_LIST.find(region => region.code === code)
 }
 
 /**
@@ -133,6 +134,7 @@ function random(max = 1, min = 0) {
  * @param {Boolean} [start=true]
  */
 function pad(str, len = 0, holder = ' ', start = true) {
+  str = '' + str
   len = Math.max(str.length, len)
   const fix = holder.repeat(len - str.length)
 

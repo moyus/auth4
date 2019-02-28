@@ -12,10 +12,10 @@ const {
 function makeIdNo() {
   const age = 20
   const now = new Date()
-  const address = CONSTANTS.REGION_LIST[random(CONSTANTS.REGION_LIST.length - 1)].code;
+  const address = CONSTANTS.REGION_LIST[random(CONSTANTS.REGION_LIST.length - 1)].code + '0101';
   var birthday = '' + (now.getFullYear() - age)  + pad(now.getMonth() + 1, 2, '0') + pad(now.getDate(), 2, '0')
 
-  const s = '' + random(001, 999)
+  const s = '' + random(9) + random(9) + random(9)
   const d = (address + birthday + s).split('')
   let t = 0
   for (let i = 0; i < d.length; i++) {
