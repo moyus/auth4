@@ -1,6 +1,6 @@
 {
   "name": "auth4",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.js",
   "author": "moyus <moyuboy@gmail.com>",
   "license": "MIT",
@@ -26,6 +26,11 @@
     "identity",
     "bank",
     "phone"
+  ],
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
   ],
   "dependencies": {
     "chalk": "^2.4.2",
