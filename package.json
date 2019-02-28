@@ -1,0 +1,35 @@
+{
+  "name": "auth4",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "moyus <moyuboy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moyus/auth4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moyus/auth4/issues"
+  },
+  "homepage": "https://github.com/moyus/auth4#readme",
+  "bin": {
+    "auth4": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "auth",
+    "identity",
+    "bank",
+    "phone"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table3": "^0.5.1",
+    "commander": "^2.19.0"
+  }
+}
